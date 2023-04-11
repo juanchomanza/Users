@@ -11,7 +11,7 @@ export const UsersList = ({
   return (
     <div className="listproduct">
       <div className="sumary">
-        <h1>User list</h1>
+        <h1 className="titulo">Twistagram</h1>
         <p>
           <strong>Users: </strong>
           {userList.length}

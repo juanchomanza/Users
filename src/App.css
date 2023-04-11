@@ -6,7 +6,7 @@
 
 body{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: #BFB78F;
+  background-color: #a799e4;
   color: #011F26;
 }
 
@@ -45,13 +45,18 @@ h1{
   align-items: center;
   width: 100%;
 }
+.titulo{
+  font-size: 50px;
+}
 
 .sumary button{
   width: 120px;
   height: 40px;
-  border-radius: 5px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 10px;
   background-color: #025E73;
-  color: #F2A71B;
+  color: #f5e3c3;
   box-shadow: 0 0 3px 3px grey;
 }
 
@@ -69,7 +74,7 @@ h1{
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-evenly;  
-  background-color: #A5A692;
+  background-color: rgb(255, 220, 255);
 }
 
 .card{
@@ -81,8 +86,13 @@ h1{
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  background-color: #a799e4;
   box-shadow: 0 0 2px 2px #025E73;
   border-radius: 5px; 
+}
+
+.card:hover{
+  background-color: #b1a7df;
 }
 
 h2{
@@ -131,7 +141,7 @@ h2{
 .form{
   width: 500px;
   height: 400px;
-  background-color: #A5A692;
+  background-color: #aaac87;
   border-radius: 10px;
   padding: 2rem;
   box-shadow: 0 0 2px 2px #025E73;
