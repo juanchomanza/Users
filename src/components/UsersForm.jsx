@@ -17,7 +17,7 @@ export const UsersForm = ({
     if (userSelected) {
       axios
         .put(
-          `https://users-crud.academlo.tech/users/${userSelected.id}/`,
+          `https://users-crud-f2ku.onrender.com/users/${userSelected.id}/`,
           data
         )
         .then(() => {
@@ -26,7 +26,7 @@ export const UsersForm = ({
         });
     } else {
       axios
-        .post(`https://users-crud.academlo.tech/users/`, data)
+        .post(`https://users-crud-f2ku.onrender.com/users/`, data)
         .then(() => {
           getUsers();
           closeForm();

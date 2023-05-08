@@ -14,7 +14,7 @@ function App() {
   const [ userDelete, setUserDelete ] = useState(null)
 
   const getUsers = () =>{
-    axios.get('https://users-crud.academlo.tech/users/')
+    axios.get('https://users-crud-f2ku.onrender.com/users')
     .then(res => setUserList(res.data))
   }
   
@@ -34,7 +34,7 @@ function App() {
   }
 
   const deleteUser = (userDelete) => {
-    axios.delete(`https://users-crud.academlo.tech/users/${userDelete?.id}/`)
+    axios.delete(`https://users-crud-f2ku.onrender.com/users/${userDelete?.id}/`)
         .then(() => { 
             getUsers()
           setWarning(false)

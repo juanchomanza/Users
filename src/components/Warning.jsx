@@ -10,8 +10,8 @@ export const Warning = ({ userDelete, cancelDelete, deleteUser }) => {
           Are you sure about leaving us whithoun you? :c<br />
           {userDelete?.name}
         </h3>
-        <button onClick={ () => deleteUser(userDelete) }>Eliminar</button>
-        <button onClick={ () => cancelDelete() }>Cancelar</button>
+        <button onClick={ () => deleteUser(userDelete) }>Delete</button>
+        <button onClick={ () => cancelDelete() }>Cancel</button>
       </div> 
     </div>
   )
